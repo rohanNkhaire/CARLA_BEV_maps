@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bev-maps"
+version = "0.1.0"
+description = ""
+authors = ["Rohan Khaire"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+carla = "^0.9.15"
+pygame = "^2.5.2"
+numpy = "^1.26.4"
+h5py = "^3.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
